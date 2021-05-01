@@ -1,0 +1,19 @@
+html {
+    margin: 0px;
+    padding: 15px;;
+    background-color: black;
+}
+
+
+
+.loginButton {
+    margin: ;
+    font-family: 'Graphic', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    border-style: hidden;
+    background-color: whitesmoke;
+
+}
