@@ -6,15 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Static Layout</title>
+    
 </head>
 <body>
 <div class= "wrapper">
-    <div class= "banner">
-        <button class= "loginButton">
-            <a href="https://auth.hulu.com/web/login?next=https%3A%2F%2Fwww.hulu.com%2Fwelcome" target="_blank">LOG IN</a>
-        </button>
-    </div>    
-
+    <div class= "flex-container1">
+        <div class= "banner">
+            <button class= "loginButton">
+                <a href="https://auth.hulu.com/web/login?next=https%3A%2F%2Fwww.hulu.com%2Fwelcome" target="_blank"style="float: right; color: white; background-color:black; text-decoration:none;">LOG IN</a>
+            </button>
+        </div>    
+    </div>
+    <div class= "hulu">
+        <div class="flex-container2">
+            <div id="flex-item">"Item"</div>
+            <div id="flex-item">Item</div>
+            <div id="flex-item">Item</div>
+            <div id="flex-item">Item</div>
+            <div id="flex-item">Item</div>
+        </div>
+    </div>
 </div>
 
 </body>
